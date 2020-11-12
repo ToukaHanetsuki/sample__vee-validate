@@ -5,6 +5,11 @@ import store from './store';
 
 Vue.config.productionTip = false;
 
+// plugins
+import veeValidate from '@/plugins/veeValidate';
+
+Vue.use(veeValidate);
+
 new Vue({
   router,
   store,
